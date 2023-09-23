@@ -1,0 +1,14 @@
+{
+	"dependencies": {
+		"@hapi/hapi": "^21.3.2",
+		"nanoid": "3"
+	},
+	"scripts": {
+		"start": "node src/server.js",
+		"test": "node src/books.js"
+	},
+	"devDependencies": {
+		"eslint": ">=5.16.0",
+		"eslint-config-google": "^0.14.0"
+	}
+}
