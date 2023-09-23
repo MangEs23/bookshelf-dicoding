@@ -4,8 +4,6 @@ const books = require('./books');
 
 exports.getAllBooks = (request, h) => {
   const {reading, finished, name} = request.query;
-  console.log(name, '//////////');
-  console.log(typeof name, '||||||||');
 
   const filteredBooks = books.filter((book) => {
     if (name) {
