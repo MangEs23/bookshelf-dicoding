@@ -1,5 +1,8 @@
 # bookshelf-dicoding
 
+# Notes!
+do not copy the "..." when you type command on the terminal
+
 ## How to run
 
 ```javascript
